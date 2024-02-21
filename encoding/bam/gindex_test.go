@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	biogobam "github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/bgzf"
-	"github.com/grailbio/hts/sam"
+	biogobam "github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/bgzf"
+	"github.com/Schaudge/hts/sam"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/expect"
 	"github.com/stretchr/testify/assert"

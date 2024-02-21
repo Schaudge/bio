@@ -1,7 +1,7 @@
 package bamprovider
 
 import (
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 type errorIterator struct {

@@ -9,7 +9,7 @@ import (
 	"github.com/Schaudge/grailbio/encoding/bamprovider"
 	"github.com/Schaudge/grailbio/encoding/converter"
 	"github.com/Schaudge/grailbio/encoding/pam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 	"v.io/x/lib/gosh"

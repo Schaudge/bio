@@ -6,8 +6,8 @@ import (
 	"io"
 
 	"github.com/Schaudge/grailbase/errors"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // Pair encapsulates a pair of SAM records for a pair of reads, and whether

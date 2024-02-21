@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync/atomic"
 
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 type indexedRecord struct {

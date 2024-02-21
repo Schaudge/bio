@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // RefByName finds a sam.Reference with the given name. It returns nil if a

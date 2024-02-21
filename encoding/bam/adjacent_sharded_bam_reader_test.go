@@ -10,8 +10,8 @@ import (
 
 	"github.com/Schaudge/grailbase/traverse"
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/sam"
 	"github.com/grailbio/testutil/expect"
 )
 

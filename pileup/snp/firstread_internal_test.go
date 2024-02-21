@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/Schaudge/grailbio/pileup"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 func TestFirstreadSNPTable(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"runtime"
 
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 const DefaultMaxPairSpan = 1000

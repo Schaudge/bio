@@ -17,7 +17,7 @@ import (
 	"github.com/Schaudge/grailbase/recordio"
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/Schaudge/grailbio/interval"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // This contains SNP-pileup support functions and definitions which are

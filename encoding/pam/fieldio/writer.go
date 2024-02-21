@@ -17,7 +17,7 @@ import (
 	"github.com/Schaudge/grailbio/biopb"
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/Schaudge/grailbio/encoding/pam/pamutil"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 const (

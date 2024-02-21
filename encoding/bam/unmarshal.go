@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 const sizeofSliceHeader = int(unsafe.Sizeof(reflect.SliceHeader{}))

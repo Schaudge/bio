@@ -15,8 +15,8 @@ import (
 	"github.com/Schaudge/grailbase/log"
 	"github.com/Schaudge/grailbase/vcontext"
 	"github.com/Schaudge/grailbio/cmd/bio-bam-sort/sorter"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/sam"
 )
 
 var (

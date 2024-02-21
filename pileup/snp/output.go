@@ -25,7 +25,7 @@ import (
 	"github.com/Schaudge/grailbase/recordio/recordiozstd"
 	"github.com/Schaudge/grailbase/tsv"
 	"github.com/Schaudge/grailbio/pileup"
-	"github.com/grailbio/hts/bgzf"
+	"github.com/Schaudge/hts/bgzf"
 )
 
 // writeChromPosRef is a convenience function which appends the CHROM/POS/REF

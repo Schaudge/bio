@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	grailbam "github.com/Schaudge/grailbio/encoding/bam"
-	"github.com/grailbio/hts/bam"
+	"github.com/Schaudge/hts/bam"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 )

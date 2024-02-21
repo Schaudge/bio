@@ -8,7 +8,7 @@ import (
 
 	"github.com/Schaudge/grailbio/interval"
 	"github.com/Schaudge/grailbio/pileup"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 	"github.com/grailbio/testutil/assert"
 )
 

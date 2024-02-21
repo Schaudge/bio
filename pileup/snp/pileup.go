@@ -30,7 +30,7 @@ import (
 	"github.com/Schaudge/grailbio/encoding/fasta"
 	"github.com/Schaudge/grailbio/interval"
 	"github.com/Schaudge/grailbio/pileup"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 type Opts struct {

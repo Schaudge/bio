@@ -11,7 +11,7 @@ import (
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/Schaudge/grailbio/encoding/pam"
 	"github.com/Schaudge/grailbio/encoding/pam/pamutil"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // PAMProvider reads PAM files.  The path can be S3 URLs, in which case the data

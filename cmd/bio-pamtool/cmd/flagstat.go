@@ -7,7 +7,7 @@ import (
 
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/Schaudge/grailbio/encoding/bamprovider"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 type aggrFlagstat struct {

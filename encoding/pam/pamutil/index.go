@@ -9,8 +9,8 @@ import (
 	"github.com/Schaudge/grailbase/log"
 	"github.com/Schaudge/grailbase/recordio"
 	"github.com/Schaudge/grailbio/biopb"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // ReadShardIndex reads the index file, "dir/<recRange>.index".

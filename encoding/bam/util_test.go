@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 	"github.com/stretchr/testify/assert"
 )
 

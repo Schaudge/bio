@@ -5,7 +5,7 @@ import (
 
 	"github.com/biogo/store/llrb"
 	"github.com/Schaudge/grailbio/encoding/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 type key struct {

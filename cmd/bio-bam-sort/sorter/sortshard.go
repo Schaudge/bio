@@ -14,8 +14,8 @@ import (
 	"github.com/Schaudge/grailbase/recordio"
 	"github.com/Schaudge/grailbase/vcontext"
 	"github.com/Schaudge/grailbio/biopb"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/sam"
 	"v.io/x/lib/vlog"
 )
 

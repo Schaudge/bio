@@ -11,10 +11,10 @@ import (
 	"github.com/Schaudge/grailbase/vcontext"
 	"github.com/Schaudge/grailbio/biopb"
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/bgzf"
-	"github.com/grailbio/hts/bgzf/index"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/bgzf"
+	"github.com/Schaudge/hts/bgzf/index"
+	"github.com/Schaudge/hts/sam"
 	"v.io/x/lib/vlog"
 )
 

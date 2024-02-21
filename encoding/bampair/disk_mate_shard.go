@@ -13,8 +13,8 @@ import (
 	"github.com/golang/snappy"
 	"github.com/Schaudge/grailbase/log"
 	grailbam "github.com/Schaudge/grailbio/encoding/bam"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // diskMateShard is an on-disk shard of the distant mates.  It is

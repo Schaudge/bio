@@ -16,9 +16,9 @@ import (
 	"github.com/Schaudge/grailbase/file"
 	"github.com/Schaudge/grailbase/vcontext"
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/bgzf"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/bgzf"
+	"github.com/Schaudge/hts/sam"
 	"v.io/x/lib/vlog"
 )
 

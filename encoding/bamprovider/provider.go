@@ -8,7 +8,7 @@ import (
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/Schaudge/grailbio/encoding/pam"
 	"github.com/Schaudge/grailbio/encoding/pam/pamutil"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 	"v.io/x/lib/vlog"
 )
 

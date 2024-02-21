@@ -19,9 +19,9 @@ import (
 	"github.com/Schaudge/grailbio/encoding/bamprovider"
 	"github.com/Schaudge/grailbio/encoding/pam"
 	"github.com/Schaudge/grailbio/encoding/pam/pamutil"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/bgzf"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/bgzf"
+	"github.com/Schaudge/hts/sam"
 	"github.com/klauspost/compress/gzip"
 	"v.io/x/lib/vlog"
 )

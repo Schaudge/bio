@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/expect"
 )

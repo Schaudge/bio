@@ -19,7 +19,7 @@ import (
 	"github.com/Schaudge/grailbio/circular"
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/Schaudge/grailbio/pileup"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 	"github.com/spaolacci/murmur3"
 )
 

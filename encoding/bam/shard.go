@@ -15,9 +15,9 @@ import (
 	"github.com/Schaudge/grailbase/file"
 	"github.com/Schaudge/grailbase/log"
 	"github.com/Schaudge/grailbio/biopb"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/bgzf"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/bgzf"
+	"github.com/Schaudge/hts/sam"
 )
 
 // UniversalRange is a range that covers all possible records.

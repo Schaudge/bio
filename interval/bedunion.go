@@ -12,7 +12,7 @@ import (
 	"github.com/Schaudge/grailbase/log"
 	gunsafe "github.com/Schaudge/grailbase/unsafe"
 	"github.com/Schaudge/grailbase/vcontext"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 	"github.com/klauspost/compress/gzip"
 )
 

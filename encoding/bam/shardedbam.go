@@ -7,8 +7,8 @@ import (
 
 	"github.com/Schaudge/grailbase/syncqueue"
 	"github.com/Schaudge/grailbio/encoding/bgzf"
-	htsbam "github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/sam"
+	htsbam "github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/sam"
 	"v.io/x/lib/vlog"
 )
 

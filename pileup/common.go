@@ -23,7 +23,7 @@ import (
 	"github.com/Schaudge/grailbase/log"
 	"github.com/Schaudge/grailbio/encoding/fasta"
 	"github.com/Schaudge/grailbio/interval"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // Common pileup components.

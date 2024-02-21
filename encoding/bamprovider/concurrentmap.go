@@ -5,7 +5,7 @@ import (
 
 	"blainsmith.com/go/seahash"
 	"github.com/Schaudge/grailbase/unsafe"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 const numConcurrentMapShards = 1024

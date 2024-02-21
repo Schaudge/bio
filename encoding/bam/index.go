@@ -7,7 +7,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/grailbio/hts/bgzf"
+	"github.com/Schaudge/hts/bgzf"
 )
 
 // Index represents the content of a .bai index file (for use with a .bam file).

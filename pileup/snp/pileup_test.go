@@ -9,8 +9,8 @@ import (
 	"github.com/Schaudge/grailbase/vcontext"
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/Schaudge/grailbio/pileup/snp"
-	"github.com/grailbio/hts/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/bam"
+	"github.com/Schaudge/hts/sam"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 )

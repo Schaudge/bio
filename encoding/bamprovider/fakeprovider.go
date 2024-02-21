@@ -5,7 +5,7 @@ import (
 
 	"github.com/Schaudge/grailbio/biopb"
 	gbam "github.com/Schaudge/grailbio/encoding/bam"
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // fakeProvider is only for unittests. It yields the given records.

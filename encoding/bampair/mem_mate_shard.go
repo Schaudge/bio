@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // memMateShard is an in-memory shard of the distant mates.

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/hts/bgzf"
+	"github.com/Schaudge/hts/bgzf"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/expect"
 )

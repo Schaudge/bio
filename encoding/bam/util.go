@@ -3,7 +3,7 @@ package bam
 import (
 	"fmt"
 
-	"github.com/grailbio/hts/sam"
+	"github.com/Schaudge/hts/sam"
 )
 
 // IsPaired returns true if record is paired.
