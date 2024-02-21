@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/grailbio/bio/cmd/bio-pamtool/cmd"
+	"github.com/Schaudge/grailbio/cmd/bio-pamtool/cmd"
 )
 
 func main() { cmd.Run() }

@@ -7,15 +7,15 @@ package pam
 import (
 	"fmt"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/recordio/recordiozstd"
-	"github.com/grailbio/base/traverse"
-	"github.com/grailbio/base/vcontext"
-	"github.com/grailbio/bio/biopb"
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/pam/fieldio"
-	"github.com/grailbio/bio/encoding/pam/pamutil"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/recordio/recordiozstd"
+	"github.com/Schaudge/grailbase/traverse"
+	"github.com/Schaudge/grailbase/vcontext"
+	"github.com/Schaudge/grailbio/biopb"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/pam/fieldio"
+	"github.com/Schaudge/grailbio/encoding/pam/pamutil"
 	"github.com/grailbio/hts/sam"
 )
 
@@ -57,7 +57,7 @@ type WriteOpts struct {
 
 	// Ignore possible errors due to concurrent writes to the same file.  This
 	// flag is copied to file.Opts defined in package
-	// github.com/grailbio/base/file.  The flag is safe to set if possible
+	// github.com/Schaudge/grailbase/file.  The flag is safe to set if possible
 	// concurrent writers are using exactly the same inputs and options.
 	IgnoreNoSuchUpload bool
 }

@@ -3,12 +3,12 @@ bio-bam-gindex
 
 ## Background
 
-A [gindex](https://github.com/grailbio/bio/tree/master/encoding/bam/gindex.go) (.gbai)
+A [gindex](https://github.com/Schaudge/grailbio/tree/master/encoding/bam/gindex.go) (.gbai)
 file is an alternate index format for BAM files.  The gindex format
 allows readers to seek into a BAM file more efficiently because the
 gindex can contain pointers into the BAM file at a finer granularity.
 
-The [encoding/bamprovider](https://github.com/grailbio/bio/tree/master/encoding/bamprovider)
+The [encoding/bamprovider](https://github.com/Schaudge/grailbio/tree/master/encoding/bamprovider)
 interface can use a .gbai file as a drop-in replacement for a .bai file.
 
 ## Usage

@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/grailbio/base/must"
-	"github.com/grailbio/bio/biosimd"
+	"github.com/Schaudge/grailbase/must"
+	"github.com/Schaudge/grailbio/biosimd"
 )
 
 type indexEntry struct {

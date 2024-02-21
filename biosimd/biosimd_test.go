@@ -9,8 +9,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/grailbio/base/simd"
-	"github.com/grailbio/bio/biosimd"
+	"github.com/Schaudge/grailbase/simd"
+	"github.com/Schaudge/grailbio/biosimd"
 )
 
 func unpackSeqSlow(dst, src []byte) {

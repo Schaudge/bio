@@ -1,9 +1,9 @@
 package fusion
 
 import (
-	"github.com/grailbio/base/simd"
-	gunsafe "github.com/grailbio/base/unsafe"
-	"github.com/grailbio/bio/biosimd"
+	"github.com/Schaudge/grailbase/simd"
+	gunsafe "github.com/Schaudge/grailbase/unsafe"
+	"github.com/Schaudge/grailbio/biosimd"
 )
 
 const (

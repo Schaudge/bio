@@ -3,7 +3,7 @@ package bam_test
 import (
 	"testing"
 
-	"github.com/grailbio/bio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/grailbio/hts/sam"
 	"github.com/grailbio/testutil/expect"
 	"github.com/grailbio/testutil/h"

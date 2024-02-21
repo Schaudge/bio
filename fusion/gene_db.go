@@ -12,10 +12,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/tsv"
-	"github.com/grailbio/bio/encoding/fasta"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/tsv"
+	"github.com/Schaudge/grailbio/encoding/fasta"
 )
 
 // GeneID is a dense sequence number (1, 2, 3, ...) assigned to a gene (e.g.,

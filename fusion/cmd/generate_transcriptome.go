@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/bio/encoding/fasta"
-	"github.com/grailbio/bio/fusion/parsegencode"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbio/encoding/fasta"
+	"github.com/Schaudge/grailbio/fusion/parsegencode"
 )
 
 type gencodeFlags struct {

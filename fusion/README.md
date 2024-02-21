@@ -22,7 +22,7 @@ Currently, AF4 only supports UNIX platforms with ivy bridge CPU or newer.  Our r
 
 - If you have go environment set up, please use the following command directly
 
-    	go install github.com/grailbio/bio/cmd/bio-fusion
+    	go install github.com/Schaudge/grailbio/cmd/bio-fusion
 
 	The binary `bio-fusion` should be ready to use, for usage, type
 
@@ -49,7 +49,7 @@ Currently, AF4 only supports UNIX platforms with ivy bridge CPU or newer.  Our r
 			mkdir -p $HOME/workdir
 			cd $HOME/workdir
 			go mod init playground/
-			go install github.com/grailbio/bio/cmd/bio-fusion
+			go install github.com/Schaudge/grailbio/cmd/bio-fusion
 
 	- The binary `bio-fusion` should be ready to use, for usage, type
 

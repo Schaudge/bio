@@ -3,10 +3,10 @@ package pamutil
 import (
 	"fmt"
 
-	"github.com/grailbio/base/backgroundcontext"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/bio/biopb"
-	gbam "github.com/grailbio/bio/encoding/bam"
+	"github.com/Schaudge/grailbase/backgroundcontext"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbio/biopb"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
 )
 
 // DefaultVersion is the string embedded in ShardIndex.version.

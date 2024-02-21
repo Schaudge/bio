@@ -9,8 +9,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/grailbio/base/simd"
-	"github.com/grailbio/bio/biosimd"
+	"github.com/Schaudge/grailbase/simd"
+	"github.com/Schaudge/grailbio/biosimd"
 )
 
 func init() {

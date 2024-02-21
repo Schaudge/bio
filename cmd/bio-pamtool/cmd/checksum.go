@@ -8,11 +8,11 @@ import (
 	"runtime"
 
 	"blainsmith.com/go/seahash"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/unsafe"
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/bamprovider"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/unsafe"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/bamprovider"
 	"github.com/grailbio/hts/sam"
 )
 

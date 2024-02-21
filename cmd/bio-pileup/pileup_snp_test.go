@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"testing"
 
-	gunsafe "github.com/grailbio/base/unsafe"
+	gunsafe "github.com/Schaudge/grailbase/unsafe"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/expect"
@@ -53,7 +53,7 @@ func TestPileupSnp(t *testing.T) {
 		testutil.CompareFile(t, out, file, nil)
 	}
 
-	executable := testutil.GoExecutable(t, "//go/src/github.com/grailbio/bio/cmd/bio-pileup/bio-pileup")
+	executable := testutil.GoExecutable(t, "//go/src/github.com/Schaudge/grailbio/cmd/bio-pileup/bio-pileup")
 
 	bamPath := filepath.Join("testdata", "wgs_chr2_subset.bam")
 	bedPath := filepath.Join("testdata", "common_chr2_subset.bed")

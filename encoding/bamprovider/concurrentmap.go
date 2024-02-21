@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"blainsmith.com/go/seahash"
-	"github.com/grailbio/base/unsafe"
+	"github.com/Schaudge/grailbase/unsafe"
 	"github.com/grailbio/hts/sam"
 )
 

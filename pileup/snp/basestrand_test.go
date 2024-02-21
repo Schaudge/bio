@@ -23,13 +23,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/grailbio/base/tsv"
-	"github.com/grailbio/bio/pileup/snp"
+	"github.com/Schaudge/grailbase/tsv"
+	"github.com/Schaudge/grailbio/pileup/snp"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 )
 
-const testDataPath = "//go/src/github.com/grailbio/bio/pileup/snp/testdata/"
+const testDataPath = "//go/src/github.com/Schaudge/grailbio/pileup/snp/testdata/"
 
 // TestReadBaseStrandTsv_fromFile tests reading a raw base strand file with ReadBaseStrandTsv.
 func TestReadBaseStrandTsv_fromFile(t *testing.T) {

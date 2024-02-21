@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/errors"
+	"github.com/Schaudge/grailbase/errors"
 	"github.com/grailbio/hts/bam"
 	"github.com/grailbio/hts/sam"
 )

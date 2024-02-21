@@ -13,10 +13,10 @@ import (
 	"io"
 	"log"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/recordiozstd"
-	"github.com/grailbio/bio/fusion"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/recordiozstd"
+	"github.com/Schaudge/grailbio/fusion"
 )
 
 // fusionWriter is for writing GeneDB and Fragments to a recordio file.

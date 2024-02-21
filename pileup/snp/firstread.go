@@ -14,11 +14,11 @@
 package snp
 
 import (
-	gunsafe "github.com/grailbio/base/unsafe"
-	"github.com/grailbio/bio/biosimd"
-	"github.com/grailbio/bio/circular"
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/pileup"
+	gunsafe "github.com/Schaudge/grailbase/unsafe"
+	"github.com/Schaudge/grailbio/biosimd"
+	"github.com/Schaudge/grailbio/circular"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/pileup"
 	"github.com/grailbio/hts/sam"
 	"github.com/spaolacci/murmur3"
 )

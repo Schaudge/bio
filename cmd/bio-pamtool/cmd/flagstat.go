@@ -5,8 +5,8 @@ import (
 	"log"
 	"runtime"
 
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/bamprovider"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/bamprovider"
 	"github.com/grailbio/hts/sam"
 )
 

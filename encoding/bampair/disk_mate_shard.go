@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/golang/snappy"
-	"github.com/grailbio/base/log"
-	grailbam "github.com/grailbio/bio/encoding/bam"
+	"github.com/Schaudge/grailbase/log"
+	grailbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/grailbio/hts/bam"
 	"github.com/grailbio/hts/sam"
 )

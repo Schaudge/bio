@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/bio/biopb"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbio/biopb"
 )
 
 // ShardIndex is data derived from one PAM file index information used by the sharder.

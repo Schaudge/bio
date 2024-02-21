@@ -14,9 +14,9 @@
 package snp
 
 import (
-	"github.com/grailbio/base/recordio"
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/interval"
+	"github.com/Schaudge/grailbase/recordio"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/interval"
 	"github.com/grailbio/hts/sam"
 )
 

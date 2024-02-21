@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/grailbio/bio/interval"
-	"github.com/grailbio/bio/pileup"
+	"github.com/Schaudge/grailbio/interval"
+	"github.com/Schaudge/grailbio/pileup"
 	"github.com/grailbio/hts/sam"
 	"github.com/grailbio/testutil/assert"
 )

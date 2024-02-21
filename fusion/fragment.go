@@ -3,7 +3,7 @@ package fusion
 import (
 	"strings"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 )
 
 // Fragment is a union of two (unpaired) reads (R1 & R2). Created by the

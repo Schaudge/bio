@@ -3,9 +3,9 @@ package pamutil_test
 import (
 	"testing"
 
-	"github.com/grailbio/bio/biopb"
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/pam/pamutil"
+	"github.com/Schaudge/grailbio/biopb"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/pam/pamutil"
 	"github.com/grailbio/testutil/expect"
 )
 

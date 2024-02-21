@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/bio/util"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbio/util"
 )
 
 var (

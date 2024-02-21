@@ -769,7 +769,7 @@ def grail_file_path() -> Path:
     """Return the abspath of grail-file binary. Builds the binary if necessary"""
     global GRAIL_FILE_PATH
     if not GRAIL_FILE_PATH:
-        target = "//go/src/github.com/grailbio/base/cmd/grail-file"
+        target = "//go/src/github.com/Schaudge/grailbase/cmd/grail-file"
         build([target])
         GRAIL_FILE_PATH = go_executable(target)
     return GRAIL_FILE_PATH
@@ -782,7 +782,7 @@ def af4_path() -> Path:
     """Return the abspath of Go bio-target-rna-fusion binary. Builds the binary if necessary"""
     global AF4_PATH
     if not AF4_PATH:
-        af4_label = "//go/src/github.com/grailbio/bio/cmd/bio-fusion"
+        af4_label = "//go/src/github.com/Schaudge/grailbio/cmd/bio-fusion"
         build([af4_label])
         AF4_PATH = go_executable(af4_label)
     return AF4_PATH

@@ -10,11 +10,11 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/grail"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/vcontext"
-	"github.com/grailbio/bio/cmd/bio-bam-sort/sorter"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/grail"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/vcontext"
+	"github.com/Schaudge/grailbio/cmd/bio-bam-sort/sorter"
 	"github.com/grailbio/hts/bam"
 	"github.com/grailbio/hts/sam"
 )

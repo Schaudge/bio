@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/grail"
+	"github.com/Schaudge/grailbase/grail"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/grailbio/base/simd"
+	"github.com/Schaudge/grailbase/simd"
 )
 
 // amd64 compile-time constants.  Private base/simd constants are recalculated

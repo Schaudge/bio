@@ -3,7 +3,7 @@ package bamprovider
 import (
 	"fmt"
 
-	gbam "github.com/grailbio/bio/encoding/bam"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/grailbio/hts/sam"
 )
 

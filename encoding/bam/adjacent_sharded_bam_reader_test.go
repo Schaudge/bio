@@ -8,8 +8,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/grailbio/base/traverse"
-	gbam "github.com/grailbio/bio/encoding/bam"
+	"github.com/Schaudge/grailbase/traverse"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/grailbio/hts/bam"
 	"github.com/grailbio/hts/sam"
 	"github.com/grailbio/testutil/expect"

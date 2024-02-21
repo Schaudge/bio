@@ -6,9 +6,9 @@
 // faster alternative to BAM.
 //
 // Most people, however, will want to use the bamprovider
-// (https://godoc.org/github.com/grailbio/bio/encoding/bamprovider) read PAM
+// (https://godoc.org/github.com/Schaudge/grailbio/encoding/bamprovider) read PAM
 // instead.  The bamprovider works for both BAM and PAM files transparently.
 //
-// REAMDE.md (https://github.com/grailbio/bio/blob/master/encoding/pam/README.md) contains
+// REAMDE.md (https://github.com/Schaudge/grailbio/blob/master/encoding/pam/README.md) contains
 // More detailed information about the PAM file format.
 package pam

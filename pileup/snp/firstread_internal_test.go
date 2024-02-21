@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/bio/pileup"
+	"github.com/Schaudge/grailbio/pileup"
 	"github.com/grailbio/hts/sam"
 )
 

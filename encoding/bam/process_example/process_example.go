@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grailbio/base/grail"
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/bamprovider"
+	"github.com/Schaudge/grailbase/grail"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/bamprovider"
 	"github.com/grailbio/hts/sam"
 	"v.io/x/lib/vlog"
 )

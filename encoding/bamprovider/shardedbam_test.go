@@ -10,8 +10,8 @@ import (
 	"sync"
 	"testing"
 
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/bamprovider"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/bamprovider"
 	"github.com/grailbio/hts/bam"
 	"github.com/grailbio/hts/sam"
 	"github.com/grailbio/testutil"
@@ -161,7 +161,7 @@ func shardedCopy(b *testing.B, inFile, outFile string) {
 // ShardedBAMWriter to biogo's writer.  Currently, the biogo output is
 // out of order, so it's not a completely fair comparison.
 //
-// TODO(josh): When this benchmark is located in github.com/grailbio/bio/encoding/bam with the code
+// TODO(josh): When this benchmark is located in github.com/Schaudge/grailbio/encoding/bam with the code
 // it exercises, the Bazel go_default_test build fails with a package height error that may be
 // similar to https://github.com/bazelbuild/rules_go/issues/1877. Consider moving this back to
 // package bam when that's fixed.

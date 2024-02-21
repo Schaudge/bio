@@ -3,7 +3,7 @@ package fusion
 import (
 	"strings"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 )
 
 func addUMIToName(name, r1UMI, r2UMI string) string {

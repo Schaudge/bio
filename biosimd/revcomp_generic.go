@@ -7,7 +7,7 @@
 package biosimd
 
 import (
-	"github.com/grailbio/base/simd"
+	"github.com/Schaudge/grailbase/simd"
 )
 
 var revComp8Table = [...]byte{

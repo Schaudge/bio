@@ -5,10 +5,10 @@ import (
 	"log"
 	"strings"
 
-	"github.com/grailbio/base/cmdutil"
-	"github.com/grailbio/bio/encoding/bamprovider"
-	"github.com/grailbio/bio/encoding/converter"
-	"github.com/grailbio/bio/encoding/pam"
+	"github.com/Schaudge/grailbase/cmdutil"
+	"github.com/Schaudge/grailbio/encoding/bamprovider"
+	"github.com/Schaudge/grailbio/encoding/converter"
+	"github.com/Schaudge/grailbio/encoding/pam"
 	"v.io/x/lib/cmdline"
 )
 

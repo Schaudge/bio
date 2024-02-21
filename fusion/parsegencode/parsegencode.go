@@ -13,11 +13,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/grailbio/base/compress"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/tsv"
-	"github.com/grailbio/bio/encoding/fasta"
+	"github.com/Schaudge/grailbase/compress"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/tsv"
+	"github.com/Schaudge/grailbio/encoding/fasta"
 )
 
 var digitsRe = regexp.MustCompile(`^\d+$`)

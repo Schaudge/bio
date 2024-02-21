@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/vcontext"
-	"github.com/grailbio/bio/encoding/fasta"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/vcontext"
+	"github.com/Schaudge/grailbio/encoding/fasta"
 	"github.com/grailbio/testutil/assert"
 )
 
@@ -227,10 +227,10 @@ var (
 
 // On an AWS EC2 m5d.4xlarge where /tmp resides on local NVME SSD:
 //
-//   $ go test github.com/grailbio/bio/encoding/fasta -o /tmp/fasta.test -bench BenchmarkRead -benchmem -path /tmp/hg19.fa -index-path /tmp/hg19.fa.fai
+//   $ go test github.com/Schaudge/grailbio/encoding/fasta -o /tmp/fasta.test -bench BenchmarkRead -benchmem -path /tmp/hg19.fa -index-path /tmp/hg19.fa.fai
 //   goos: linux
 //   goarch: amd64
-//   pkg: github.com/grailbio/bio/encoding/fasta
+//   pkg: github.com/Schaudge/grailbio/encoding/fasta
 //   BenchmarkRead/new/init-16              1        9359395514 ns/op        21848172432 B/op        32723978 allocs/op
 //   BenchmarkRead/new/read_all-16                764           1572704 ns/op          723850 B/op      20064 allocs/op
 //   BenchmarkRead/new/read_rand-16           2931512               416 ns/op             128 B/op          4 allocs/op
@@ -241,7 +241,7 @@ var (
 //   BenchmarkRead/idx/read_all-16                  1        7853457132 ns/op        3771430032 B/op    25096 allocs/op
 //   BenchmarkRead/idx/read_rand-16            239200              4796 ns/op             969 B/op          4 allocs/op
 //   PASS
-//   ok      github.com/grailbio/bio/encoding/fasta  30.229s
+//   ok      github.com/Schaudge/grailbio/encoding/fasta  30.229s
 func BenchmarkRead(b *testing.B) {
 	if *pathFlag == "" {
 		b.Fatal("-path not set")

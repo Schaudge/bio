@@ -16,15 +16,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grailbio/base/compress"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/grail"
-	"github.com/grailbio/base/log"
-	gunsafe "github.com/grailbio/base/unsafe"
-	"github.com/grailbio/base/vcontext"
-	"github.com/grailbio/bio/encoding/fastq"
-	"github.com/grailbio/bio/fusion"
+	"github.com/Schaudge/grailbase/compress"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/grail"
+	"github.com/Schaudge/grailbase/log"
+	gunsafe "github.com/Schaudge/grailbase/unsafe"
+	"github.com/Schaudge/grailbase/vcontext"
+	"github.com/Schaudge/grailbio/encoding/fastq"
+	"github.com/Schaudge/grailbio/fusion"
 )
 
 type memStats struct {
@@ -477,7 +477,7 @@ func DetectFusion(ctx context.Context, flags fusionFlags, opts fusion.Opts) {
 func usage() {
 	// TODO(saito) This doc is only for gencode. Update once we have a full README.
 	fmt.Fprintln(os.Stderr, `
-See [README.md](https://github.com/grailbio/bio/fusion/README.md) for more details.`)
+See [README.md](https://github.com/Schaudge/grailbio/fusion/README.md) for more details.`)
 	flag.PrintDefaults()
 	os.Exit(1)
 }

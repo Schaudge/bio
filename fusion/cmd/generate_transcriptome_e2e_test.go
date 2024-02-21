@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/grailbio/bio/encoding/fasta"
+	"github.com/Schaudge/grailbio/encoding/fasta"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/expect"
@@ -169,16 +169,16 @@ func testGenerateTranscriptome(t *testing.T, flags gencodeFlags, want string) {
 	tempdir := testutil.GetTmpDir()
 	flags.output = tempdir + "/" + want
 	GenerateTranscriptome(context.Background(),
-		testutil.GetFilePath("//go/src/github.com/grailbio/bio/fusion/parsegencode/testdata/annotation.gtf"),
-		testutil.GetFilePath("//go/src/github.com/grailbio/bio/fusion/parsegencode/testdata/genome.fa"),
+		testutil.GetFilePath("//go/src/github.com/Schaudge/grailbio/fusion/parsegencode/testdata/annotation.gtf"),
+		testutil.GetFilePath("//go/src/github.com/Schaudge/grailbio/fusion/parsegencode/testdata/genome.fa"),
 		flags)
 	if *updateGoldenFlag {
 		data, err := ioutil.ReadFile(flags.output)
 		assert.NoError(t, err)
-		assert.NoError(t, ioutil.WriteFile(testutil.GetFilePath("//go/src/github.com/grailbio/bio/fusion/parsegencode/testdata/"+want), data, 0644))
+		assert.NoError(t, ioutil.WriteFile(testutil.GetFilePath("//go/src/github.com/Schaudge/grailbio/fusion/parsegencode/testdata/"+want), data, 0644))
 	} else {
 		expect.EQ(t,
-			readFASTA(t, testutil.GetFilePath("//go/src/github.com/grailbio/bio/fusion/parsegencode/testdata/"+want)),
+			readFASTA(t, testutil.GetFilePath("//go/src/github.com/Schaudge/grailbio/fusion/parsegencode/testdata/"+want)),
 			readFASTA(t, flags.output))
 	}
 }

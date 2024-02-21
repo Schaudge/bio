@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/fileio"
-	"github.com/grailbio/base/log"
-	gunsafe "github.com/grailbio/base/unsafe"
-	"github.com/grailbio/base/vcontext"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/fileio"
+	"github.com/Schaudge/grailbase/log"
+	gunsafe "github.com/Schaudge/grailbase/unsafe"
+	"github.com/Schaudge/grailbase/vcontext"
 	"github.com/grailbio/hts/sam"
 	"github.com/klauspost/compress/gzip"
 )

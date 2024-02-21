@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/bio/biosimd"
+	"github.com/Schaudge/grailbio/biosimd"
 	"github.com/pkg/errors"
 )
 

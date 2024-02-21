@@ -56,7 +56,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/compress/libdeflate"
+	"github.com/Schaudge/grailbase/compress/libdeflate"
 	"v.io/x/lib/vlog"
 )
 

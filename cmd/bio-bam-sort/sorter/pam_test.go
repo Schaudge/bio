@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grailbio/bio/biopb"
+	"github.com/Schaudge/grailbio/biopb"
 	"github.com/stretchr/testify/assert"
 )
 

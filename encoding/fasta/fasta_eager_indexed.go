@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/unsafe"
-	"github.com/grailbio/bio/biosimd"
+	"github.com/Schaudge/grailbase/unsafe"
+	"github.com/Schaudge/grailbio/biosimd"
 )
 
 func newEagerIndexed(fastaR io.Reader, index []indexEntry, parsedOpts opts) (Fasta, error) {

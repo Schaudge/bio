@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/bio/biopb"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbio/biopb"
 )
 
 // FileType defines the type of the file, either data or index.

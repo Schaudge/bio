@@ -7,8 +7,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/grailbio/base/grail"
-	"github.com/grailbio/bio/encoding/bam"
+	"github.com/Schaudge/grailbase/grail"
+	"github.com/Schaudge/grailbio/encoding/bam"
 )
 
 var (

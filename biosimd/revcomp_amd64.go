@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/grailbio/base/simd"
+	"github.com/Schaudge/grailbase/simd"
 )
 
 // *** the following functions are defined in revcomp_amd64.s

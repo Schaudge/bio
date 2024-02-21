@@ -1,10 +1,10 @@
 package circular
 
 import (
-	"github.com/grailbio/base/bitset"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/simd"
-	bi "github.com/grailbio/bio/interval"
+	"github.com/Schaudge/grailbase/bitset"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/simd"
+	bi "github.com/Schaudge/grailbio/interval"
 )
 
 // BitsPerWord is the number of bits per machine word.  (Don't want to import

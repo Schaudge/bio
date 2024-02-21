@@ -21,7 +21,7 @@ func findGene(genes []*GencodeGene, name string) *GencodeGene {
 // TestReadGTFWithoutPadding will test gtf reading functionality without padded exons
 func TestReadGTFWithoutPadding(t *testing.T) {
 	gtfRecords := ReadGTF(context.Background(), testutil.GetFilePath(
-		"//go/src/github.com/grailbio/bio/fusion/parsegencode/testdata/annotation.gtf"), false, 0, false,
+		"//go/src/github.com/Schaudge/grailbio/fusion/parsegencode/testdata/annotation.gtf"), false, 0, false,
 		0)
 	assert.EQ(t, len(gtfRecords), 4)
 	// Test some random things in there
@@ -33,7 +33,7 @@ func TestReadGTFWithoutPadding(t *testing.T) {
 // TestReadGTFWithoutPadding will test gtf reading functionality with 20bp padded exons
 func TestReadGTFWithPadding(t *testing.T) {
 	gtfRecords := ReadGTF(context.Background(), testutil.GetFilePath(
-		"//go/src/github.com/grailbio/bio/fusion/parsegencode/testdata/annotation.gtf"), false, 20, false,
+		"//go/src/github.com/Schaudge/grailbio/fusion/parsegencode/testdata/annotation.gtf"), false, 20, false,
 		0)
 	assert.EQ(t, len(gtfRecords), 4)
 	// Test gene on positive strand worked correctly

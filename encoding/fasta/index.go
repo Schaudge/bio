@@ -6,8 +6,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/tsv"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/tsv"
 )
 
 // GenerateIndex generates an index (*.fai) from FASTA.  The index can be later

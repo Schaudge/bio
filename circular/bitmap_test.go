@@ -8,9 +8,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/grailbio/base/bitset"
-	"github.com/grailbio/bio/circular"
-	bi "github.com/grailbio/bio/interval"
+	"github.com/Schaudge/grailbase/bitset"
+	"github.com/Schaudge/grailbio/circular"
+	bi "github.com/Schaudge/grailbio/interval"
 )
 
 func setSomeBits(cb *circular.Bitmap, bitCounts []int, nRowBit, start, end, n int) {

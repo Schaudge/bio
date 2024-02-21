@@ -106,7 +106,7 @@ def go_args(config: Config, gene_list_path: Path, output_suffix: str) -> List[st
 
 
 def run_go(args: List[str]) -> None:
-    bin_label = "//go/src/github.com/grailbio/bio/cmd/bio-fusion"
+    bin_label = "//go/src/github.com/Schaudge/grailbio/cmd/bio-fusion"
     util.build([bin_label])
     bin_path = util.go_executable(bin_label)
     logging.info("Start: go: %s %s", bin_path, " ".join(args))

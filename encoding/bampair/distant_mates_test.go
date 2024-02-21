@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/grailbio/base/grail"
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/bamprovider"
+	"github.com/Schaudge/grailbase/grail"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/bamprovider"
 	"github.com/grailbio/hts/sam"
 	"github.com/grailbio/testutil"
 	"github.com/stretchr/testify/assert"

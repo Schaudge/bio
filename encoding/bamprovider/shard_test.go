@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grailbio/bio/biopb"
-	"github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/bamprovider"
+	"github.com/Schaudge/grailbio/biopb"
+	"github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/bamprovider"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 )
@@ -47,7 +47,7 @@ func validateShards(t *testing.T, p bamprovider.Provider, shards []bam.Shard, in
 	iter0.Close()
 }
 
-// TODO(josh): When this test is located in github.com/grailbio/bio/encoding/bam with the code
+// TODO(josh): When this test is located in github.com/Schaudge/grailbio/encoding/bam with the code
 // it exercises, the Bazel go_default_test build fails with a package height error that may be
 // similar to https://github.com/bazelbuild/rules_go/issues/1877. Consider moving this back to
 // package bam when that's fixed.

@@ -6,7 +6,7 @@ import (
 	"unsafe"
 
 	farm "github.com/dgryski/go-farm"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 	"golang.org/x/sys/unix"
 )
 

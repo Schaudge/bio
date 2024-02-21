@@ -3,8 +3,8 @@ package bamprovider
 import (
 	"math"
 
-	"github.com/grailbio/bio/biopb"
-	gbam "github.com/grailbio/bio/encoding/bam"
+	"github.com/Schaudge/grailbio/biopb"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/grailbio/hts/sam"
 )
 

@@ -3,7 +3,7 @@ package bamprovider_test
 import (
 	"testing"
 
-	"github.com/grailbio/bio/encoding/bamprovider"
+	"github.com/Schaudge/grailbio/encoding/bamprovider"
 	"github.com/grailbio/hts/sam"
 	"github.com/grailbio/testutil/assert"
 	"v.io/x/lib/vlog"

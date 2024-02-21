@@ -11,7 +11,7 @@ import (
 	"os"
 	"testing"
 
-	grailbam "github.com/grailbio/bio/encoding/bam"
+	grailbam "github.com/Schaudge/grailbio/encoding/bam"
 	"github.com/grailbio/hts/bam"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"

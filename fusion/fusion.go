@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 )
 
 // ReproduceBug introduces extra logic to reproduce suspicious behaviours of

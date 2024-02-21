@@ -10,13 +10,13 @@ import (
 	"reflect"
 	"unsafe"
 
-	_ "github.com/grailbio/base/simd" // linkname dependency
+	_ "github.com/Schaudge/grailbase/simd" // linkname dependency
 )
 
-//go:linkname countNibblesInSetSSE41Asm github.com/grailbio/base/simd.countNibblesInSetSSE41Asm
+//go:linkname countNibblesInSetSSE41Asm github.com/Schaudge/grailbase/simd.countNibblesInSetSSE41Asm
 func countNibblesInSetSSE41Asm(src unsafe.Pointer, tablePtr *NibbleLookupTable, nByte int) int
 
-//go:linkname countNibblesInTwoSetsSSE41Asm github.com/grailbio/base/simd.countNibblesInTwoSetsSSE41Asm
+//go:linkname countNibblesInTwoSetsSSE41Asm github.com/Schaudge/grailbase/simd.countNibblesInTwoSetsSSE41Asm
 func countNibblesInTwoSetsSSE41Asm(cnt2Ptr *int, src unsafe.Pointer, table1Ptr, table2Ptr *NibbleLookupTable, nByte int) int
 
 // It's generally cleaner to unpack first, and then use base/simd's byte

@@ -16,7 +16,7 @@ package snp
 import (
 	"encoding/binary"
 
-	"github.com/grailbio/bio/pileup"
+	"github.com/Schaudge/grailbio/pileup"
 )
 
 type PerReadFeatures struct {

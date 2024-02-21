@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/grailbio/base/grail"
+	"github.com/Schaudge/grailbase/grail"
 	"github.com/klauspost/compress/gzip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

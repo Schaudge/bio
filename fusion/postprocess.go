@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"sort"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 	"github.com/minio/highwayhash"
 )
 

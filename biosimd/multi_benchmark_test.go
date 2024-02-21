@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/grailbio/base/simd"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/simd"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 // Utility functions to assist with benchmarking of embarrassingly parallel

@@ -6,11 +6,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/bio/biopb"
-	grailbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/pam"
-	"github.com/grailbio/bio/encoding/pam/pamutil"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbio/biopb"
+	grailbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/pam"
+	"github.com/Schaudge/grailbio/encoding/pam/pamutil"
 	"github.com/grailbio/hts/sam"
 	"v.io/x/lib/vlog"
 )

@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grailbio/base/vcontext"
-	gbam "github.com/grailbio/bio/encoding/bam"
-	"github.com/grailbio/bio/encoding/pam"
-	"github.com/grailbio/bio/encoding/pam/pamutil"
+	"github.com/Schaudge/grailbase/vcontext"
+	gbam "github.com/Schaudge/grailbio/encoding/bam"
+	"github.com/Schaudge/grailbio/encoding/pam"
+	"github.com/Schaudge/grailbio/encoding/pam/pamutil"
 	"github.com/grailbio/hts/sam"
 	"v.io/x/lib/vlog"
 )

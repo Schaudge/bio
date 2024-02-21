@@ -105,7 +105,7 @@ eleven fields: coord, flags, mapq, cigar, materefid, matepos, templen, name,
 seq, qual, aux.  The "coord" file stores the (refid,pos) of each record, and
 other field files store the values of the field with the same name in
 `sam.Record`.  Each data file is a recordio file
-(https://github.com/grailbio/base/tree/master/recordio), with 8MB
+(https://github.com/Schaudge/grailbase/tree/master/recordio), with 8MB
 pre-compression block size, and using zstd for compression.
 
 The field data files for a given coordinate range always store exactly the same
@@ -119,7 +119,7 @@ may store reads in range [(0:1234),(0:4567)].
 ## Field data file format
 
 A field data file (e.g., `foo.pam.1:0,46:1653469.mapq.data`) is stored as a recordio file
-(https://github.com/grailbio/base/tree/master/recordio).
+(https://github.com/Schaudge/grailbase/tree/master/recordio).
 
 As the PAM writer receives records to write, it extracts their field values and
 appends them to the eleven buffers, one for each field.  Once the size of a
@@ -256,7 +256,7 @@ pre-compression, allowing the compressor to do a more effective job.
 ### Field data index
 
 Each field-data file stores an index in the recordio trailer
-(https://github.com/grailbio/base/tree/master/recordio) part.
+(https://github.com/Schaudge/grailbase/tree/master/recordio) part.
 
 _Note_: This index is unrelated to the fileshard index file (foo/coord.index)
 described in the previous section.

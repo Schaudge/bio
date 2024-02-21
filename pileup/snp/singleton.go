@@ -14,9 +14,9 @@
 package snp
 
 import (
-	"github.com/grailbio/base/recordio/recordiozstd"
-	"github.com/grailbio/bio/encoding/fasta"
-	"github.com/grailbio/bio/pileup"
+	"github.com/Schaudge/grailbase/recordio/recordiozstd"
+	"github.com/Schaudge/grailbio/encoding/fasta"
+	"github.com/Schaudge/grailbio/pileup"
 )
 
 // PosType is the integer type used to represent genomic positions.

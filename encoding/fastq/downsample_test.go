@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/bio/encoding/fastq"
+	"github.com/Schaudge/grailbio/encoding/fastq"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/expect"

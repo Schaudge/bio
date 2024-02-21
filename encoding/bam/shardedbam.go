@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/grailbio/base/syncqueue"
-	"github.com/grailbio/bio/encoding/bgzf"
+	"github.com/Schaudge/grailbase/syncqueue"
+	"github.com/Schaudge/grailbio/encoding/bgzf"
 	htsbam "github.com/grailbio/hts/bam"
 	"github.com/grailbio/hts/sam"
 	"v.io/x/lib/vlog"

@@ -24,10 +24,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/grailbio/base/grail"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/vcontext"
-	"github.com/grailbio/bio/pileup/snp"
+	"github.com/Schaudge/grailbase/grail"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/vcontext"
+	"github.com/Schaudge/grailbio/pileup/snp"
 )
 
 var (
