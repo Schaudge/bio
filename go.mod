@@ -1,4 +1,4 @@
-module github.com/grailbio/bio
+module github.com/Schaudge/grailbio
 
 require (
 	blainsmith.com/go/seahash v1.1.2
@@ -8,8 +8,8 @@ require (
 	github.com/dgryski/go-farm v0.0.0-20190104051053-3adb47b1fb0f
 	github.com/gogo/protobuf v1.3.1
 	github.com/golang/snappy v0.0.0-20170215233205-553a64147049
-	github.com/grailbio/base v0.0.10-0.20200817015340-8e5f8ec2e457
-	github.com/grailbio/hts v1.0.2-0.20200303061016-030e6b9f995e
+	github.com/Schaudge/grailbiobase v0.0.0
+	github.com/Schaudge/hts
 	github.com/grailbio/testutil v0.0.3
 	github.com/klauspost/compress v1.8.6
 	github.com/minio/highwayhash v0.0.0-20190112144901-fc990dfafa15
