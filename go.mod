@@ -2,7 +2,7 @@ module github.com/Schaudge/grailbio
 
 require (
 	blainsmith.com/go/seahash v1.1.2
-	github.com/Schaudge/grailbase v0.0.0-20240222085301-0e5b2d6914e4
+	github.com/Schaudge/grailbase v0.0.0-20240223061707-44c758a471c0
 	github.com/Schaudge/hts v0.0.0-20240222090207-0bdca0784dd6
 	github.com/antzucaro/matchr v0.0.0-20160303212615-63146c76a4e1
 	github.com/aws/aws-sdk-go v1.50.24

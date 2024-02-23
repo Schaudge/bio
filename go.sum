@@ -9,8 +9,8 @@ github.com/DATA-DOG/go-sqlmock v1.3.3/go.mod h1:f/Ixk793poVmq4qj/V1dPUg2JEAKC73Q
 github.com/DataDog/zstd v1.4.1 h1:3oxKN3wbHibqx897utPC2LTQU4J+IHWWJO+glkAkpFM=
 github.com/DataDog/zstd v1.4.1/go.mod h1:1jcaCB/ufaK+sKp1NBhlGmpz41jOoPQ35bpF36t7BBo=
 github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5/go.mod h1:lmUJ/7eu/Q8D7ML55dXQrVaamCz2vxCfdQBasLZfHKk=
-github.com/Schaudge/grailbase v0.0.0-20240222085301-0e5b2d6914e4 h1:CXwHr0M2j1kkbH01fkNZClt/4w7xtR1z51+vUG6AweE=
-github.com/Schaudge/grailbase v0.0.0-20240222085301-0e5b2d6914e4/go.mod h1:qKjql8pMNGtgX/28jCp+YvspzWf3acfYb3c9T2U3EnI=
+github.com/Schaudge/grailbase v0.0.0-20240223061707-44c758a471c0 h1:qm/Jj+tz0/slnIWiizbtwgBqtjqvVXQ7HeFeuiXi8+4=
+github.com/Schaudge/grailbase v0.0.0-20240223061707-44c758a471c0/go.mod h1:IVJmImmf6Xtgpf3rdZyMvZ7orE09sBIys1lHrobPYLM=
 github.com/Schaudge/hts v0.0.0-20240222090207-0bdca0784dd6 h1:w4RRPeQ0A96c4ubXJuveq7jGq7tGuRmX51jphJek/7U=
 github.com/Schaudge/hts v0.0.0-20240222090207-0bdca0784dd6/go.mod h1:TIVkFAAROOMs9eJbdt1YMEVADIAZgs9pVx5rC+2SheA=
 github.com/StackExchange/wmi v0.0.0-20170410192909-ea383cf3ba6e/go.mod h1:3eOhrUMpNV+6aFIbp5/iudMxNCF27Vw2OZgy4xEx0Fg=
