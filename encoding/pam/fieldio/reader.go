@@ -7,6 +7,8 @@ import (
 	"context"
 	"encoding/binary"
 	"fmt"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/morebufio"
 	"reflect"
 	"sync/atomic"
 	"unsafe"
@@ -14,8 +16,6 @@ import (
 	"github.com/Schaudge/grailbase/errors"
 	"github.com/Schaudge/grailbase/file"
 	"github.com/Schaudge/grailbase/log"
-	"github.com/Schaudge/grailbase/ioctx"
-	"github.com/Schaudge/grailbase/morebufio"
 	"github.com/Schaudge/grailbase/recordio"
 	"github.com/Schaudge/grailbase/traverse"
 	gunsafe "github.com/Schaudge/grailbase/unsafe"
@@ -79,7 +79,7 @@ func NewReader(ctx context.Context, path, label string, coordField bool, fileOpt
 	fr.in = in
 	frReader := fr.in.Reader(ctx)
 	if ropts.bufSize > 0 {
-		frReader = morebufio.NewReadSeekerSize(ioctx.FromStdReadSeeker(frReader), ropts.bufSize)
+		frReader = ioctx.ToStdReadSeeker(ctx, morebufio.NewReadSeekerSize(ioctx.FromStdReadSeeker(frReader), ropts.bufSize))
 	}
 	fr.rio = recordio.NewScanner(frReader, recordio.ScannerOpts{})
 	fr.addrGenerator = gbam.NewCoordGenerator()
