@@ -11,8 +11,8 @@ github.com/DataDog/zstd v1.4.1/go.mod h1:1jcaCB/ufaK+sKp1NBhlGmpz41jOoPQ35bpF36t
 github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5/go.mod h1:lmUJ/7eu/Q8D7ML55dXQrVaamCz2vxCfdQBasLZfHKk=
 github.com/Schaudge/grailbase v0.0.0-20240222085301-0e5b2d6914e4 h1:CXwHr0M2j1kkbH01fkNZClt/4w7xtR1z51+vUG6AweE=
 github.com/Schaudge/grailbase v0.0.0-20240222085301-0e5b2d6914e4/go.mod h1:qKjql8pMNGtgX/28jCp+YvspzWf3acfYb3c9T2U3EnI=
-github.com/Schaudge/hts v0.0.0-20240221134046-27ce3902bffb h1:wbitpduc83JdbgtgXBDHDGpvG7IaLaOQL08Zo3aVvdc=
-github.com/Schaudge/hts v0.0.0-20240221134046-27ce3902bffb/go.mod h1:JkCTwM6ODRmD2JWZPIDMc2qbUE3sLAUKkBfp9wq6+gk=
+github.com/Schaudge/hts v0.0.0-20240222090207-0bdca0784dd6 h1:w4RRPeQ0A96c4ubXJuveq7jGq7tGuRmX51jphJek/7U=
+github.com/Schaudge/hts v0.0.0-20240222090207-0bdca0784dd6/go.mod h1:TIVkFAAROOMs9eJbdt1YMEVADIAZgs9pVx5rC+2SheA=
 github.com/StackExchange/wmi v0.0.0-20170410192909-ea383cf3ba6e/go.mod h1:3eOhrUMpNV+6aFIbp5/iudMxNCF27Vw2OZgy4xEx0Fg=
 github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d/go.mod h1:3eOhrUMpNV+6aFIbp5/iudMxNCF27Vw2OZgy4xEx0Fg=
 github.com/ajstarks/svgo v0.0.0-20180226025133-644b8db467af/go.mod h1:K08gAheRH3/J6wwsYMMT4xOr94bZjxIelGM0+d/wbFw=
@@ -20,8 +20,8 @@ github.com/antzucaro/matchr v0.0.0-20160303212615-63146c76a4e1 h1:/kE5HT+z1kX8KW
 github.com/antzucaro/matchr v0.0.0-20160303212615-63146c76a4e1/go.mod h1:bV/CkX4+ANGDaBwbHkt9kK287al/i9BsB18PRBvyqYo=
 github.com/aws/aws-sdk-go v1.23.14/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/aws/aws-sdk-go v1.23.22/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
-github.com/aws/aws-sdk-go v1.50.22 h1:BUhSaO2qLk2jkcyLebcvDmbdOunVe/Wq8RsCyI8szL0=
-github.com/aws/aws-sdk-go v1.50.22/go.mod h1:LF8svs817+Nz+DmiMQKTO3ubZ/6IaTpq3TjupRn3Eqk=
+github.com/aws/aws-sdk-go v1.50.24 h1:3o2Pg7mOoVL0jv54vWtuafoZqAeEXLhm1tltWA2GcEw=
+github.com/aws/aws-sdk-go v1.50.24/go.mod h1:LF8svs817+Nz+DmiMQKTO3ubZ/6IaTpq3TjupRn3Eqk=
 github.com/biogo/boom v0.0.0-20150317015657-28119bc1ffc1 h1:LAHY5JxqhOgJDeDBGKsQ4300qd3sG8C0j5CQS8gD+Kw=
 github.com/biogo/store v0.0.0-20190426020002-884f370e325d h1:vu2gsANkGtqYaQNXhmAAiJ7b1eKTbX3/aPAvDCasBgE=
 github.com/biogo/store v0.0.0-20190426020002-884f370e325d/go.mod h1:Iev9Q3MErcn+w3UOJD/DkEzllvugfdx7bGcMOFhvr/4=

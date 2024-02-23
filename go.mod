@@ -3,9 +3,9 @@ module github.com/Schaudge/grailbio
 require (
 	blainsmith.com/go/seahash v1.1.2
 	github.com/Schaudge/grailbase v0.0.0-20240222085301-0e5b2d6914e4
-	github.com/Schaudge/hts v0.0.0-20240221134046-27ce3902bffb
+	github.com/Schaudge/hts v0.0.0-20240222090207-0bdca0784dd6
 	github.com/antzucaro/matchr v0.0.0-20160303212615-63146c76a4e1
-	github.com/aws/aws-sdk-go v1.50.22
+	github.com/aws/aws-sdk-go v1.50.24
 	github.com/biogo/store v0.0.0-20190426020002-884f370e325d
 	github.com/dgryski/go-farm v0.0.0-20190104051053-3adb47b1fb0f
 	github.com/gogo/protobuf v1.3.1
