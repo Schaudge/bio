@@ -77,7 +77,7 @@ func GetDistantMates(provider bamprovider.Provider, shardList []bam.Shard, opts 
 	var distantMateGroup sync.WaitGroup
 	collectionChannel := make(chan interface{}, collectionChanSize)
 	distantMateGroup.Add(1)
-	errs := multierror.NewMultiError(1)
+	errs := multierror.NewBuilder(1)
 	go func() {
 		defer distantMateGroup.Done()
 		errs.Add(collectDistantMates(collectionChannel, shardInfo, distantMates))
