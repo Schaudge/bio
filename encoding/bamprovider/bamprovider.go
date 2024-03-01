@@ -3,6 +3,7 @@ package bamprovider
 import (
 	"fmt"
 	"io"
+	"os"
 	"strings"
 	"sync"
 
@@ -67,6 +68,10 @@ func (b *BAMProvider) indexPath() string {
 	index := b.Index
 	if index == "" {
 		index = b.Path + ".bai"
+		_, err := os.Stat(index)
+		if err != nil {
+			index = b.Path[:len(b.Path)-3] + ".bai"
+		}
 	}
 	return index
 }
